@@ -1,36 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2eaea;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    text-align: center;
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f06e6e;
 }
+
 
 h1 {
     text-align: center;
     color: #f06e6e;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 100px;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type:none;
+    padding: 20px;
     text-align: center;
     margin: 0 auto;
 }
 
-li {
-    display: inline;
-    margin: 0 15px;
+li{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 65px;
+    margin-right: auto;
+    padding: 25px;
+    border: 3px solid #f06e6e;
 }
 
-img {
-    display: block;
-    margin: auto;
-    border: 3px solid 
+.cow { display: block;
+    margin:auto;
+    border: 3px solid #f06e6e
 }
+
